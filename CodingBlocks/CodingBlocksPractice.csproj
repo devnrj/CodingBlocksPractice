@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\BiggestNumber.cs" />
+    <Compile Include="Arrays\BitonicArrayMaxLen.cs" />
     <Compile Include="Arrays\MaximumSubSumCirc.cs" />
     <Compile Include="Arrays\MaxSubarraySum.cs" />
     <Compile Include="Arrays\RainwaterTrapping.cs" />

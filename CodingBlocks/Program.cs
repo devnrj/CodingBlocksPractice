@@ -11,7 +11,7 @@ namespace CodingBlocks
     {
         public static void Main(string[] args)
         {
-            RainwaterTrapping.DriverMethod();
+            BitonicArrayMaxLen.DriverMethod();
             Console.ReadLine();
         }
     }

@@ -8,6 +8,16 @@ namespace CodingBlocks.Arrays
 {
     class RainwaterTrapping
     {
+        public static int[] InputArray(string[] input)
+        {
+            int[] values = new int[input.Length];
+            for (int i = 0; i < input.Length; i++)
+            {
+                Int32.TryParse(input[i], out values[i]);
+            }
+            return values;
+        }
+
         public static void DriverMethod()
         {
             int t = 0;
@@ -56,16 +66,6 @@ namespace CodingBlocks.Arrays
                 rightMax[i] = Math.Max(rightMax[i + 1], values[i]);
             }
             return rightMax;
-        }
-
-        public static int[] InputArray(string[] input)
-        {
-            int[] values = new int[input.Length];
-            for (int i = 0; i < input.Length; i++)
-            {
-                Int32.TryParse(input[i], out values[i]);
-            }
-            return values;
         }
     }
 }
