@@ -11,7 +11,7 @@ namespace CodingBlocks
     {
         public static void Main(string[] args)
         {
-            BiggestNumber.DriverMethod();
+            RainwaterTrapping.DriverMethod();
             Console.ReadLine();
         }
     }

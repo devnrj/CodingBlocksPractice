@@ -46,6 +46,7 @@
     <Compile Include="Arrays\BiggestNumber.cs" />
     <Compile Include="Arrays\MaximumSubSumCirc.cs" />
     <Compile Include="Arrays\MaxSubarraySum.cs" />
+    <Compile Include="Arrays\RainwaterTrapping.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Arrays\RotateMatrix.cs" />
