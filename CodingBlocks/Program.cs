@@ -11,7 +11,7 @@ namespace CodingBlocks
     {
         public static void Main(string[] args)
         {
-            LargestBinarySubarray.DriverMethod();
+            StringSort.DriverMethod();
             Console.ReadLine();
         }
     }
