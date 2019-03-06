@@ -11,7 +11,7 @@ namespace CodingBlocks
     {
         public static void Main(string[] args)
         {
-            BitonicArrayMaxLen.DriverMethod();
+            LargestBinarySubarray.DriverMethod();
             Console.ReadLine();
         }
     }
